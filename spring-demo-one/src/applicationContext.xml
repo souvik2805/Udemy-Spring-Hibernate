@@ -6,8 +6,13 @@
 
 	
     <!-- Define your beans here -->
+    
+    <bean id="myFortune" class="com.asl.springdemo.HappyFortuneService">
+    </bean>
+    
    <bean id="myCoach" 
    class="com.asl.springdemo.TrackCoach">
+    <constructor-arg ref="myFortune"></constructor-arg>
    </bean>
 
 </beans>
