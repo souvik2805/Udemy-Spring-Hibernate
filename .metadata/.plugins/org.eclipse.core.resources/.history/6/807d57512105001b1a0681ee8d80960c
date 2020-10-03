@@ -1,0 +1,12 @@
+package com.asl.springdemo;
+
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+		
+		// Load the Spring 	configuration file
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.asl.springdemo;
+
+public interface Coach {
+
+}

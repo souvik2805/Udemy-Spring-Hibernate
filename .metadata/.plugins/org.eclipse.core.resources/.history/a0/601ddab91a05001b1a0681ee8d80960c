@@ -1,0 +1,9 @@
+package com.asl.springdemo;
+
+public interface Coach {
+	
+	public default String getDailyWorkout() {
+		return "This si ";
+	}
+
+}
